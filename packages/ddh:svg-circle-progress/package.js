@@ -11,9 +11,9 @@ Package.onUse(function(api) {
 
   api.use(['templating'], 'client');
 
-  api.addFiles([
-    'ddh:svg-circle-progress.js',
-    'ddh:svg-circle-progress.html'
+  api.addFiles([    
+    'ddh:svg-circle-progress.html',
+    'ddh:svg-circle-progress.js'
   ], 'client');
 });
 
