@@ -1,0 +1,7 @@
+<template name="SvgCircleProgress">
+  <svg xmlns="http://www.w3.org/2000/svg" width="{{svgDimension}}" height="{{svgDimension}}" viewBox="0 0 {{svgDimension}} {{svgDimension}}" style="display: block; margin: 0 auto;">
+    <circle style="fill: {{bgColor}};" cx="{{radius}}" cy="{{radius}}" r="{{radius}}"/>
+    <path d="{{drawProgress total progress}}" fill="{{progressColor}}" stroke="{{progressColor}}" strokeWidth="1" />
+    {{#if outlineOnly}}<circle style="fill: {{bgColor}};" cx="{{radius}}" cy="{{radius}}" r="{{outlineOnlyRadius}}"/>{{/if}}
+  </svg>
+</template>

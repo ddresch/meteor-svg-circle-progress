@@ -1,0 +1,6 @@
+/* CSS declarations go here */
+body { background-color: rgb(208, 208, 208); }
+h1 { font-family: Verdana; text-align: center; }
+
+/* SVG styles */
+svg { box-shadow: 4px 5px 34px black; padding: 20px; }

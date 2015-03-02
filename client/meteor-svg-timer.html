@@ -1,0 +1,12 @@
+<head>
+  <title>SVG Circle Progress Demo</title>
+</head>
+
+<body>
+  <h1>Seconds Timer</h1>
+  {{>SvgCircleProgress radius=30 total=33 progress=getProgress bgColor="grey" progressColor="rgba(255,255,255,0.8)"}}
+  <h1>Outline Only</h1>
+  {{>SvgCircleProgress radius=120 total=33 progress=getProgress bgColor="#ff0000" progressColor="rgba(255,255,255,0.8)" outlineOnly=true}}
+  <h1>Static Status</h1>
+  {{>SvgCircleProgress radius=80 total=33 progress=22 bgColor="green" progressColor="rgba(255,255,255,0.8)"}}
+</body>
