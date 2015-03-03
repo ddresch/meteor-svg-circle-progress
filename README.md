@@ -2,6 +2,10 @@
 
 Simple GUI component to display progress of any kind in form of a SVG based pie chart circle.
 
+## Demo
+
+   http://svg-circle-progress.meteor.com
+
 ## Install
     
     meteor add ddh:svg-circle-progress
