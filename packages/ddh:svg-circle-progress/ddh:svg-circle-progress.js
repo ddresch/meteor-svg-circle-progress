@@ -7,8 +7,10 @@ Template.SvgCircleProgress.helpers({
     return this.radius - 20;
   },
 
-  drawProgress: function(total, position) {
-    var angle = Math.ceil(360 * position / total);
+  drawProgress: function(total, position) {    
+    if(total == undefined) total = 100;    
+    var angle = Math.ceil(360 * position / total);  
+    
     var startAngle = -90;
     var endAngle = 0;
     var arcSweepFlag = '0,1';

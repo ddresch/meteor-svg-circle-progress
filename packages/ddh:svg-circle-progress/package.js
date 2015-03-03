@@ -2,7 +2,7 @@ Package.describe({
   name: 'ddh:svg-circle-progress',
   summary: 'Simple GUI component to display progress of any kind in form of a SVG based pie chart circle.',
   description: 'Easily display a timer of available seconds or file upload progress with this simple pie chart like SVG progress circle.',
-  version: '1.0.0',
+  version: '1.0.1',
   git: 'https://github.com/ddresch/meteor-svg-circle-progress'
 });
 
